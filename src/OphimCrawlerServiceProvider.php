@@ -26,7 +26,7 @@ class OphimCrawlerServiceProvider extends SP
             'hacoidev/ophim-crawler' =>
             [
                 'name' => 'Apii.Online Crawler',
-                'package_name' => 'hacoidev/ophim-crawler',
+                'package_name' => 'gum97/ophim-crawler',
                 'icon' => 'la la-code-fork',
                 'entries' => [
                     ['name' => 'Crawler', 'icon' => 'la la-hand-grab-o', 'url' => backpack_url('/plugin/ophim-crawler')],
