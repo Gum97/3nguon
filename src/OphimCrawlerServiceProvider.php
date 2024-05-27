@@ -23,7 +23,7 @@ class OphimCrawlerServiceProvider extends SP
     {
 
         config(['plugins' => array_merge(config('plugins', []), [
-            'hacoidev/ophim-crawler' =>
+            'gum97/ophim-crawler' =>
             [
                 'name' => 'Apii.Online Crawler',
                 'package_name' => 'gum97/ophim-crawler',
